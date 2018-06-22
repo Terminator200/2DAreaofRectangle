@@ -14,8 +14,8 @@ namespace _2DAreaofRectangle
             double y1 = double.Parse(Console.ReadLine());
             double x2 = double.Parse(Console.ReadLine());
             double y2 = double.Parse(Console.ReadLine());
-            double a = x1 - y1;
-            double b = x2 - y2;
+            double a = Math.Abs(x1 - y1);
+            double b = Math.Abs(x2 - y2);
             double perimeter = 2 * (a + b);
             double area = a * b;
 
